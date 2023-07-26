@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+
+/* CSS Variabel */
+:root {
+  --black: linear-gradient(to right, rgb(0, 0, 0), rgb(41, 40, 40));
+  --fonts: "Poppins", sans-serif;
+}
+/* end css variabel */
+
+body {
+  font-family: var(--fonts);
+}
+
+/* Navbar */
+.navbar {
+  background: var(--black);
+  backdrop-filter: blur(10px);
+}
+/* end Navbar */
+
+/* home page 1 */
+#page1 {
+  height: 100vh;
+  background-image: url(../images/background1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.267);
+  background-blend-mode: multiply;
+}
+
+#page1 h1 {
+  font-size: 100px;
+  text-shadow: 4px 10px #312f2f;
+}
+/* end home page 1 */
