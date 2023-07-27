@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Maps Example</title>
+    <style>
+      #map {
+        height: 400px;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Google Maps Example</h1>
+    <div id="map"></div>
+
+    <div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32658997.47453812!2d95.87837592085532!3d-2.267593851010658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2c4c07d7496404b7%3A0xe37b4de71badf485!2sIndonesia!5e0!3m2!1sid!2sid!4v1690454648651!5m2!1sid!2sid"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&callback=initMap" async defer></script>
+    <script>
+      function initMap() {
+        // Koordinat untuk pusat peta
+        var center = { lat: -6.1754, lng: 106.8272 };
+
+        // Membuat peta
+        var map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 14,
+          center: center,
+        });
+
+        // Tambahkan marker pada pusat peta
+        var marker = new google.maps.Marker({
+          position: center,
+          map: map,
+          title: "Hello, World!",
+        });
+      }
+    </script>
+  </body>
+</html>

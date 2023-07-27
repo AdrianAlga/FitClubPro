@@ -34,3 +34,62 @@ body {
   text-shadow: 4px 10px #312f2f;
 }
 /* end home page 1 */
+
+/* home page 2 */
+#page2 {
+  height: 90vh;
+  background: linear-gradient(to right, rgb(130, 130, 130), rgb(249, 249, 249));
+}
+
+#page2 h2 {
+  font-size: 50px;
+  text-shadow: 5px 5px 3px #9f9a9a;
+  font-weight: 700;
+}
+
+#page2 p {
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  #page2 {
+    height: 130vh;
+  }
+  
+}
+/* end home page 2 */
+
+/* home page 3 */
+#page3 {
+  height: 70vh;
+}
+
+#page3 h2 {
+  font-size: 90px;
+  text-shadow: 3px 5px 5px #9c9c9c;
+  font-weight: 700;
+  z-index: 1;
+  position: absolute;
+  bottom: -30px;
+  left: 30%;
+}
+
+#page3 span{
+    font-size: larger;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+@media (max-width: 768px) {
+  #page3 h2 {
+    font-size: 50px;
+    border: none !important;
+    text-shadow: 3px 5px 5px #9c9c9c;
+    font-weight: 700;
+    z-index: 0;
+    position: static;
+    bottom: -30px;
+    left: 30%;
+  }
+}
+/* end home page 3 */
