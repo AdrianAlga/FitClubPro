@@ -15,7 +15,7 @@
 }
 /* end navbar profile */
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -29,6 +29,10 @@ body {
   backdrop-filter: blur(10px);
 }
 /* end Navbar */
+
+/* ============================= */
+/* =========== index =========== */
+/* ============================= */
 
 /* home page 1 */
 #page1 {
@@ -117,7 +121,9 @@ body {
 }
 /* end home page 4 */
 
-/* ===== MEMBERSIP ===== */
+/* ================================= */
+/* =========== MEMBERSIP =========== */
+/* ================================= */
 
 /* halaman1 */
 #halaman1 {
@@ -167,3 +173,20 @@ body {
   font-weight: bold;
 }
 /* end halaman2 */
+
+/* =============================== */
+/* =========== PESANAN =========== */
+/* =============================== */
+
+#pesanan {
+  min-height: 100vh;
+  background-color: #565454;
+  padding-top: 50px;
+}
+
+/* Menghilangkan ikon segitiga pada dropdown */
+.dropdown-toggle::after {
+  display: none;
+}
+
+

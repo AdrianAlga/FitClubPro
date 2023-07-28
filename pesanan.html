@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" alt="img" height="70px" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="membersip.html">Membership</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="pesanan.html">Pesanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="btn-group">
+          <button type="button" class="btn dropdown-toggle d-flex align-items-center" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+            <div class="bg-primary rounded-circle me-2 d-flex align-items-center justify-content-center icn-akun">U</div>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end py-0">
+            <li>
+              <a href="">
+                <button class="dropdown-item btn py-2" type="button">Logout</button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- halaman1 -->
+    <section id="pesanan">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-8 pt-5">
+            <h1 class="py-3 text-white">Informasi Pesanan</h1>
+            <div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-10 p-0">
+                    <div class="dropdown mb-2">
+                      <button class="btn rounded-end-0 btn-secondary dropdown-toggle w-100 text-start" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-6">Status</div>
+                            <div class="col-6 text-end"><span class="badge text-bg-warning">Padding</span></div>
+                          </div>
+                        </div>
+                      </button>
+                      <div class="dropdown-menu p-4 text-body-secondary w-100">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-3">
+                              <div class="container">
+                                <div class="row">
+                                  <div class="col-12">
+                                    <img src="images/barcode.jpg" alt="img" height="100px" />
+                                  </div>
+                                  <div class="col-12">
+                                    <p>09-07-2023</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-9">
+                              <table>
+                                <thead>
+                                  <tr>
+                                    <th class="col-5">Nama</th>
+                                    <th class="col-1">:</th>
+                                    <th class="col-6">reski xxxx xxxx</th>
+                                  </tr>
+                                  <tr>
+                                    <th class="col-5">Email</th>
+                                    <th class="col-1">:</th>
+                                    <th class="col-6">reski@gmail.com</th>
+                                  </tr>
+                                  <tr>
+                                    <th class="col-5">Alamat</th>
+                                    <th class="col-1">:</th>
+                                    <th class="col-6">Makassar</th>
+                                  </tr>
+                                  <tr>
+                                    <th class="col-5">NoHp</th>
+                                    <th class="col-1">:</th>
+                                    <th class="col-6">085xxx</th>
+                                  </tr>
+                                  <tr>
+                                    <th class="col-5">Umur</th>
+                                    <th class="col-1">:</th>
+                                    <th class="col-6">17</th>
+                                  </tr>
+                                  <tr>
+                                    <th class="col-5">Jenis Kelamin</th>
+                                    <th class="col-1">:</th>
+                                    <th class="col-6">Laki-Laki</th>
+                                  </tr>
+                                  <tr>
+                                    <th class="col-5">Membaersip</th>
+                                    <th class="col-1">:</th>
+                                    <th class="col-6">3 Bulan</th>
+                                  </tr>
+                                  <tr>
+                                    <th class="col-5">Total</th>
+                                    <th class="col-1">:</th>
+                                    <th class="col-6">1.500.000</th>
+                                  </tr>
+                                </thead>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-1 p-0">
+                    <button class="btn rounded-0 border-start btn-secondary w-100" data-bs-toggle="modal" data-bs-target="#send"><i class="bi bi-send text-white"></i></button>
+                  </div>
+                  <div class="col-1 p-0">
+                    <button class="btn rounded-start-0 border-start btn-secondary w-100" data-bs-toggle="modal" data-bs-target="#hapus"><i class="bi bi-trash text-white"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 text-center">
+            <img src="images/background2.png" alt="img" class="img-fluid" />
+            <h1 class="fw-bold card">Fit Club Pro</h1>
+          </div>
+        </div>
+      </div>
+      <!-- Modal hapus-->
+      <div class="modal fade" id="hapus" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Peringatan</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">Apakah anda yakin ingin menghapusnya?</div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary w-25" data-bs-dismiss="modal">tidak</button>
+              <button type="button" class="btn btn-primary w-25">Iya</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal bukti tranfer-->
+      <form action="">
+        <div class="modal fade" id="send" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Payment Info</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="mb-3">
+                  <label for="formFile" class="form-label">Kirim Bukti Pembayaran</label>
+                  <input class="form-control" type="file" id="formFile" />
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-primary w-25">kirim</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </section>
+    <!-- end halaman1 -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
