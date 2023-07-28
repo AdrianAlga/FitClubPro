@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" alt="img" height="70px" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="membersip.html">Membership</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="membersip.html">Pesanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="btn-group">
+          <button type="button" class="btn dropdown-toggle d-flex align-items-center" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+            <div class="bg-primary rounded-circle me-2 d-flex align-items-center justify-content-center icn-akun">U</div>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end py-0">
+            <li>
+              <a href="">
+                <button class="dropdown-item btn py-2" type="button">
+                  Logout
+                </button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- halaman1 -->
+    <section id="halaman1">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-md-6">
+            <h1>MEMBERSIP</h1>
+            <p>
+              "Selamat datang di klub kebugaran kami! Bergabunglah dengan program membersip kami dan raih tubuh sehat dan bugar yang Anda impikan. Dengan menjadi anggota GYM, Anda akan mendapatkan akses ke fasilitas lengkap kami, termasuk
+              beragam alat olahraga modern, kelas kebugaran yang dipandu oleh instruktur ahli, dan dukungan penuh untuk mencapai tujuan kebugaran Anda. Nikmati pengalaman kebugaran yang menyenangkan dan komunitas yang mendukung, serta
+              jadwalkan sesi latihan Anda dengan fleksibilitas. Bergabunglah dengan kami hari ini dan mulailah perjalanan menuju hidup sehat dan aktif!"
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img src="images/GYM.jpg" alt="img" class="img-fluid rounded-5" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end halaman1 -->
+
+    <!-- halaman2 -->
+    <section id="halaman2">
+      <div class="container py-5">
+        <div class="row">
+          <h1 class="fw-bold">NgeGym Ga Pake Mahal</h1>
+          <p>Nikmati gym paling terjangkau di Indonesia dan capai tujuan kebugaran Anda bersama kami.</p>
+        </div>
+        <div class="row">
+          <div class="col-2 mb-2">
+            <div class="card">
+              <button class="btn p-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <div class="container h-100">
+                  <div class="row">
+                    <div class="col-12">
+                      <span class="txt1">3</span>
+                      <span class="txt2">Bulan</span>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <span>Rp.</span>
+                      <span class="fw-bold">300.000</span>
+                      <span class="txt3">/bulan</span>
+                    </div>
+                    <div class="col-12">
+                      <span class="txt3">Rp.</span>
+                      <span class="txt3"><del>400.000</del></span>
+                      <span class="txt3">/bulan</span>
+                    </div>
+                    <div class="col-12 py-3">
+                      <div class="border-bottom"></div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="container p-0">
+                        <div class="row">
+                          <div class="col-1">
+                            <p class="fs-6"><i class="bi bi-check2-circle text-success"></i></p>
+                          </div>
+                          <div class="col-10">
+                            <p class="txt3">Akses tidak terbatas keseluruh Fit Club Pro di indonesia</p>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-1">
+                            <p class="fs-6"><i class="bi bi-check2-circle text-success"></i></p>
+                          </div>
+                          <div class="col-10">
+                            <p class="txt3">gratis setiap harinya</p>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-1">
+                            <p class="fs-6"><i class="bi bi-check2-circle text-success"></i></p>
+                          </div>
+                          <div class="col-10">
+                            <p class="txt3">gratis 2 sesi personal training</p>
+                          </div>
+                          <div class="col-12 pb-2">
+                            <div class="border-bottom"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row pb-2">
+                    <div class="col-12">
+                      <span class="txt3">Total Harga :</span>
+                      <div class="txt4">
+                        <span>Rp.</span>
+                        <span>1.500.000</span>
+                      </div>
+                      <div>
+                        <p class="txt3">
+                          <del>
+                            <span>Rp.</span>
+                            <span>2.000.000</span>
+                          </del>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal checkout-->
+      <form action="">
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <div class="col-2"></div>
+                <div class="col-8 text-center">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Berlangganan</h1>
+                </div>
+                <div class="col-2 text-end">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+              </div>
+              <div class="modal-body">
+                <div class="mb-3">
+                  <label for="fieldName" class="form-label">Masukkan Nama</label>
+                  <input type="text" class="form-control" id="fieldName" name="fieldName" required/>
+                </div>
+                <div class="mb-3">
+                  <label for="fieldName" class="form-label">Masukkan Email</label>
+                  <input type="email" class="form-control" id="fieldName" name="fieldName" required/>
+                </div>
+                <div class="mb-3">
+                  <label for="fieldName" class="form-label">Masukkan Alamat</label>
+                  <input type="text" class="form-control" id="fieldName" name="fieldName" required/>
+                </div>
+                <div class="mb-3">
+                  <label for="fieldName" class="form-label">Masukkan NoHp</label>
+                  <input type="number" class="form-control" id="fieldName" name="fieldName" required/>
+                </div>
+                <div class="mb-3">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-6">
+                        <label for="fieldName" class="form-label">Masukkan Umur</label>
+                        <input type="number" class="form-control" id="fieldName" name="fieldName" required/>
+                      </div>
+                      <div class="col-6">
+                        <label for="fieldName" class="form-label">Jenis Kelamin</label>
+                        <select class="form-select" aria-label="Default select example">
+                          <option value="1">Laki-Laki</option>
+                          <option value="2">Perempuan</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                <button type="submit" class="btn btn-primary">Kirim</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </section>
+    <!-- end halaman2 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
