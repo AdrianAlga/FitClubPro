@@ -25,6 +25,8 @@ label {
 }
 .btn:hover {
   background-color: #2c2b2b;
+  color: white;
+
 }
 
 .navbar {
@@ -114,6 +116,11 @@ input::-webkit-inner-spin-button {
   -moz-appearance: none;
   /* Hapus ikon dropdown di browser Chrome dan Safari */
   -webkit-appearance: none;
+}
+
+/* message */
+.txt-2{
+  text-align: justify;
 }
 
 
