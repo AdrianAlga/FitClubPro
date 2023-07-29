@@ -107,3 +107,21 @@ input::-webkit-inner-spin-button {
 .dropdown-toggle::after {
   display: none;
 }
+
+/* CSS kustom untuk menghilangkan ikon dropdown */
+.no-icon {
+  /* Hapus ikon dropdown di browser Firefox */
+  -moz-appearance: none;
+  /* Hapus ikon dropdown di browser Chrome dan Safari */
+  -webkit-appearance: none;
+}
+
+
+
+
+
+
+
+
+
+
