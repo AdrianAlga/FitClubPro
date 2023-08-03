@@ -22,7 +22,8 @@ if (isset($_POST["regis"])) {
             '$id',  
             '$username',  
             '$password',  
-            '$email'
+            '$email',
+            '0'
             )";
   $result = mysqli_query($conn, $query);
   if ($result) {
