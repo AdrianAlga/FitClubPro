@@ -53,7 +53,7 @@ if (isset($_POST["tambah"])) {
     <div class="container-fluid card shadow-lg">
       <div class="row mt-3">
         <div class="col-2">
-          <a href="produk.html"><button type="button" class="btn"><i class="bi bi-arrow-left-circle"></i></button></a>
+          <a href="product-index.php"><button type="button" class="btn"><i class="bi bi-arrow-left-circle"></i></button></a>
         </div>
         <div class="col-12 text-center">
           <h3>Tambah Membership</h3>
@@ -95,10 +95,6 @@ if (isset($_POST["tambah"])) {
                   <input type="number" min="0" id="total_price_cut" name="total_price_cut" required />
                   <label for="total_price_cut">Potongan Total Harga</label>
                 </div>
-                <!-- <div class="mb-3">
-                    <label for="fieldName" class="form-label">Fitur</label>
-                    <textarea class="form-control" name="fieldName" id="fieldName" rows="2"></textarea>
-                  </div> -->
                 <div class="row text-center my-4">
                   <div class="col-md-12">
                     <div class="login-box">

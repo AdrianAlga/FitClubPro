@@ -49,8 +49,8 @@ if (isset($_POST["contact"])) {
 
   <!-- contact -->
   <section id="contact">
-    <div class="container h-100 pt-5">
-      <div class="row justify-content-center h-100 align-items-center">
+    <div class="container">
+      <div class="row justify-content-center py-4">
         <div class="col-6 mt-5 py-3">
           <div class="login-box">
             <p>Contact</p>
