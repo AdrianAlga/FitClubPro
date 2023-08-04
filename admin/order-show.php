@@ -47,7 +47,7 @@ $features = query("SELECT * FROM `features` WHERE product_id = $productId");
     <div class="container">
       <div class="row card shadow p-4 mt-3">
         <div class="col-md-12">
-          <h4 class="card-header">Informasi</h4>
+          <h4 class="card-header text-white">Informasi</h4>
           <div class="card-body">
             <div class="col-12">
               <table class="table table-borderless">
@@ -147,6 +147,13 @@ $features = query("SELECT * FROM `features` WHERE product_id = $productId");
                       <?php else : ?>
                         <div class="col-6"><span class="badge text-bg-warning text-white">Pending</span></div>
                       <?php endif ?>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Bukti Pembayaran</td>
+                    <td class="text-center">:</td>
+                    <td>
+                      <img src="../images/pay/<?= $order['pay_image'] ?>" alt="image"  height="250">
                     </td>
                   </tr>
                 </tbody>

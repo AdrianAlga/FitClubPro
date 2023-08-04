@@ -54,7 +54,7 @@ if (isset($_POST["checkout"])) {
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Bootstrap demo</title>
+  <title>Membersip</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
 
   <!-- CSS -->
@@ -126,13 +126,9 @@ if (isset($_POST["checkout"])) {
                       <div class="container p-0">
                         <?php foreach ($features as $index => $feature) : ?>
                           <?php if ($feature['product_id'] == $product['id_product']) : ?>
-                            <div class="row">
-                              <div class="col-1">
-                                <p class="fs-6"><i class="bi bi-check2-circle text-success"></i></p>
-                              </div>
-                              <div class="col-10">
-                                <p class="txt3"><?= $feature['body'] ?></p>
-                              </div>
+                            <div class="d-flex align-items-center">
+                              <p class="fs-6"><i class="bi bi-check2-circle text-success me-1"></i></p>
+                              <p class="txt3"><?= $feature['body'] ?></p>
                             </div>
                           <?php endif; ?>
                         <?php endforeach; ?>

@@ -56,7 +56,7 @@ if (isset($_POST["edit"])) {
     <div class="container-fluid card shadow-lg">
       <div class="row mt-3">
         <div class="col-2">
-          <a href="produk.html"><button type="button" class="btn"><i class="bi bi-arrow-left-circle"></i></button></a>
+          <a href="product-index.php"><button type="button" class="btn"><i class="bi bi-arrow-left-circle"></i></button></a>
         </div>
         <div class="col-12 text-center">
           <h3>Edit Membership</h3>

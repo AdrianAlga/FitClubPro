@@ -78,6 +78,6 @@ function uploadGambar($namaGambar)
   $namaFileBaru = uniqid();
   $namaFileBaru .= '.';
   $namaFileBaru .= $ekstensiGambar;
-  move_uploaded_file($tmpName, 'images/oay/' . $namaFileBaru);
+  move_uploaded_file($tmpName, 'images/pay/' . $namaFileBaru);
   return $namaFileBaru;
 }
