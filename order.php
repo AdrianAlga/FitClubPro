@@ -6,7 +6,7 @@ $orders = query("SELECT orders.*, products.*
           FROM orders
           JOIN products ON orders.product_id = products.id_product
           WHERE user_id='$userId'");
-          
+
 if (isset($_POST["hapus"])) {
   $id = $_POST["id"];
   $result = mysqli_query($conn, "DELETE FROM `orders` WHERE id_order='$id'");
@@ -84,7 +84,7 @@ if (isset($_POST["pay"])) {
                                     <img src="images/barcode.jpeg" alt="img" height="100px" />
                                   </div>
                                   <div class="col-12">
-                                    <p>09-07-2023</p>
+                                    <p><?= $order['order_date'] ?></p>
                                   </div>
                                 </div>
                               </div>

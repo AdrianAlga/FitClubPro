@@ -89,6 +89,11 @@ $features = query("SELECT * FROM `features` WHERE product_id = $productId");
                     <td class="text-center">:</td>
                     <td><?= $order['gender'] ?></td>
                   </tr>
+                  <tr>
+                    <td>Tanggal Pemesanan</td>
+                    <td class="text-center">:</td>
+                    <td><?= $order['order_date'] ?></td>
+                  </tr>
                 </tbody>
               </table>
             </div>

@@ -87,7 +87,7 @@ if (isset($_POST["updateStatus"])) {
                 <?php foreach ($orders as $index => $order) : ?>
                   <tr>
                     <th scope="row"><?= $index + 1 ?></th>
-                    <td><?= $order['month'] ?> Bulan</td>
+                    <td><?= $order['order_date'] ?></td>
                     <td><?= $order['name'] ?></td>
                     <td>
                       <a href="order-show.php?id=<?= $order['id_order'] ?>">
