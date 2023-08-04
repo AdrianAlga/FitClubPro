@@ -81,7 +81,7 @@ if (isset($_POST["pay"])) {
                               <div class="container">
                                 <div class="row">
                                   <div class="col-12">
-                                    <img src="images/barcode.jpg" alt="img" height="100px" />
+                                    <img src="images/barcode.jpeg" alt="img" height="100px" />
                                   </div>
                                   <div class="col-12">
                                     <p>09-07-2023</p>

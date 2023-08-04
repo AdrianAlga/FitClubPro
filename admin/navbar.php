@@ -47,7 +47,9 @@
       </button>
       <ul class="dropdown-menu dropdown-menu-end">
         <li>
-          <button class="dropdown-item logout" type="button"><a href="../logout.php">Logout</a></button>
+          <a href="../logout.php">
+          <button class="dropdown-item logout" type="button">Logout</button>
+          </a>
         </li>
       </ul>
     </div>

@@ -127,16 +127,17 @@ if (isset($_POST["checkout"])) {
                         <?php foreach ($features as $index => $feature) : ?>
                           <?php if ($feature['product_id'] == $product['id_product']) : ?>
                             <div class="row">
-                              <div class="col-1">
-                                <p class="fs-6"><i class="bi bi-check2-circle text-success"></i></p>
-                              </div>
-                              <div class="col-10">
-                                <p class="txt3"><?= $feature['body'] ?></p>
+                              <div class="d-flex text-start align-items-center">
+                               <i class="bi bi-check2-circle text-success"></i>
+                               <p class="txt3 ps-1 m-0"><?= $feature['body'] ?></p>
                               </div>
                             </div>
                           <?php endif; ?>
                         <?php endforeach; ?>
                       </div>
+                    </div>
+                    <div class="col-12 py-3">
+                      <div class="border-bottom"></div>
                     </div>
                   </div>
                   <div class="row pb-2">

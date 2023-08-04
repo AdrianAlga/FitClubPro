@@ -77,7 +77,7 @@ if (isset($_POST["updateStatus"])) {
               <thead>
                 <tr>
                   <th class="col-md-0">No.</th>
-                  <th class="col-md-4">Layanan</th>
+                  <th class="col-md-4">Tanggal Pemesanan</th>
                   <th class="col-md-4">Nama Pemesan</th>
                   <th class="col-md-4">Action</th>
                   <th class="col-md-4">Comfirm</th>
