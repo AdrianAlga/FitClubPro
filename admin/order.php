@@ -98,11 +98,11 @@ if (isset($_POST["updateStatus"])) {
                       </button>
                     </td>
                     <td>
-                      <div class="dropdown">
+                      <div class="dropdown dropstart">
                         <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                           <?= $order['status'] ?>
                         </button>
-                        <ul class="dropdown-menu">
+                        <ul class="dropdown-menu p-0">
                           <li>
                             <a class="dropdown-item">
                               <form action="" method="post">
